@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4f9ffe;
+}
+
+header div {
+    background-image: url(/asset/img/pattern.png ) ;
+    background-repeat: repeat-x;
+    background-size: 35%;
+    height: 125px ;
+}
+
+.logo {
+    margin: 50px 0px 0px 10px;
+    width: 260px;
+}
+.containe {
+    margin: 10px 15px;
+}
+.title h1 {
+      font-size: 2.1em;
+}
+.title p a {
+    color: #00b9ff;
+    text-decoration: none;
+}
+.title p, span {
+    color: gray;
+}
+.images .tim-1 {
+    width: 710px;
+}
+
+.images .tim-2 {
+    width: 608px;
+}
+.news {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    height: 700px;
+}
+ul {
+    margin-left: 30px;
+}
+table {
+    border-spacing: 0px;
+   
+}
+table td {
+    text-align: left;
+}
+table tbody td {
+   width: 2%;
+}
+table thead {
+    color: white;
+    background-color: #00b9ff;
+}
+table tbody {
+    background-color:#9dc8fc;
+}
+.horizontal-line-table {
+    background-color: white;
+}
+  h3 {
+    color: gray;
+  }
+ .topic-1 {
+   position: relative;
+  }
+.topic-1 p {
+    position: absolute;
+    top: 1%;
+    color: white;
+    margin-left: 10px;
+}
+.topic-2 {
+    position: relative;
+}
+.topic-2 p {
+    position: absolute;
+    top: 1%;
+    color: white;
+    margin-left: 10px;
+}
